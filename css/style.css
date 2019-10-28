@@ -1,0 +1,149 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.gray{
+    background-color: #444;
+    background-size: cover;
+}
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: #c2c2c2 ;
+}
+
+.navbar-light .navbar-brand:hover{
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+
+.bgc{
+    background-image: url('../img/form-background.jpg');
+    /* height: 100vh; */
+    background-size:  cover;
+    background-repeat: no-repeat;
+    padding-top: 100px ;
+    padding-bottom: 150px;
+}
+
+.pierwszy{
+    align-items: center;
+}
+form{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom:20px;
+    margin-left: 0;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.35) ;
+    padding: 20px;
+}
+
+input,
+textarea,
+.agree{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.agree{
+    background-color:#e38f42;
+}
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+h1,h2,h5{
+    color: white;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom:10px;
+}
+
+h2,h5,h8{
+    font-weight: normal;
+}
+
+h8,h5{
+   color: #c2c2c2 ;
+}
+.btn{
+    color: white;
+    border: transparent;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 15px;
+}
+.orange{
+    background-color:#e38f42 ;
+    width: auto;
+}
+
+.black{
+    background-color:  rgba(0, 0, 0, 0.3) ;
+    width: auto;
+}
+
+
+
+p{
+    color: white;
+    margin: 0 auto;
+    
+}
+
+a{
+   color: #e38f42;
+}
+
+a:hover{
+    color: #e38f42;
+}
+
+.pen{
+    padding-left: 0;
+}
+
+
+.przyciski{
+    text-align: center;
+}
+
+.inspiration{
+    padding: 70px;
+}
+
+.inspiracje h5 {
+    color: black;
+}
+
+.inspiracje p {
+    color: #c2c2c2;
+}
+
+.inspiracje p:nth-of-type(2){
+    margin: 10px 0;
+}
+
+footer{
+    background-color:#f8f8f8; 
+    padding: 70px;
+}
+
+.about p {
+    color: #c2c2c2;
+}
